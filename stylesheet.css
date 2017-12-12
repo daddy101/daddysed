@@ -1,0 +1,24 @@
+* {
+    color:white;
+    font-family:"Comic Sans MS", cursive, sans-serif;
+    text-align: center;
+    text-decoration: none; 
+}
+
+body {
+    background-color: black;
+}
+
+.top {
+    font-size:6em;
+    vertical-align:top;
+}
+
+.button {
+    font-size:1em;
+}
+
+.tier2 {
+    font-size:3em;
+    
+}
