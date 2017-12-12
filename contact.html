@@ -4,7 +4,19 @@
     <title>Eddie's Dad</title>
     <a href="main.html" class="button">Home </a>
     <a href="supporters.html" class="button">Supporters</a>
-    <a href="contact.html" class="button">Contact</a>
-<p>Contact us at eddiesdadweb@gmail dot com to send in your stories, poems, and other creations featuring Eddie's dad.</p>
+    <a  class="button" onclick ="CountFun()">Contact</a>
+    <script>
+    var cnt = 0
+    function CountFun() {
+        cnt=parseInt(cnt)+parseInt(1);
+        var divData = document.getElementById("showCount");
+        //divData.innerHTML="Number of Downloads: ("+cnt +")";
+        
+        if(cnt == 69) {
+            cnt = window.location.replace('smut.html');
+        }
+    }
+    </script>
+<p id=showCount>Contact us at eddiesdadweb@gmail dot com to send in your stories, poems, and other creations featuring Eddie's dad.</p>
 
 </html>
