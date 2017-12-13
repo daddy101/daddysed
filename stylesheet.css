@@ -5,6 +5,14 @@
     text-decoration: none; 
 }
 
+.haiku {
+    font-size:4em
+}
+
+.credit {
+    font-size 3.5em
+}
+
 body {
     background-color: black;
 }
