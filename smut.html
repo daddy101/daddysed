@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<body onload=funky()>
 <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <title>Eddie's SMUT</title>
     <a href="main.html" class="button">Home </a>
@@ -28,9 +29,15 @@ blow like a Mississippi steamboat<br>
 ################################################################################### -->
 
     <script>
+        function funky() {
     var namez = ["The","The","The","The","The","Fatherly Figure","Fatherly Figure","Fatherly Figure","Fatherly Figure","Fatherly Figure","Rachel","Rachel","Rachelle","EDP445","Eddie","Sierra"]
     var name = namez[Math.floor(Math.random() * namez.length)];
+        }
     document.getElementById("me").innerHTML = "'Eddies Dad Haiku' <br>written by Anon <br> sponsored by "+name 
-        document.getElementById("2").innerHTML = "'Poem of Edwards Father' <br>written by Anon <br> sponsored by "+name 
+        funky()
+    document.getElementById("2").innerHTML = "'Poem of Edwards Father' <br>written by Anon <br> sponsored by "+name 
     </script>
+    
+    
+    </body>
 </html>
