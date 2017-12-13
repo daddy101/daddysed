@@ -5,7 +5,8 @@
     <a  class="button">Home </a>
     <a href="supporters.html" class="button">Supporters</a>
     <a href="contact.html" class="button">Contact</a>
-<em> <b><h1 class="top">Eddies dad</h1> </b></em>
+<em> <b><h1 class="top">Eddies dad</h1> </b></em><br>
+    <p id=me class=special>This content was sponsored by</p> <br><br>
     
     
     <!-- DOWN HERE IS ALL OF THE STUFF 
@@ -21,6 +22,9 @@
     <script>
     var namez = ["The","The","The","The","The","Fatherly Figure","Fatherly Figure","Fatherly Figure","Fatherly Figure","Fatherly Figure","Rachel","Rachel","Rachelle","EDP445","Eddie","Sierra"]
     var name = namez[Math.floor(Math.random() * namez.length)];
+        
+    document.getElementById("me").innerHTML = "This content sponsored by "+name 
+        
     </script>
     
 </html>
