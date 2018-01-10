@@ -25,22 +25,35 @@ body {
 .button {
     font-size:1.5em;
 }
-
-.tier2 {
-    font-size:3em;
-    
-}
-.tier1 {
+.onedolla {
     font-size:1em;
 }
+.twodolla {
+    font-size:1.6em;
+}
+.threedolla {
+    font-size:2.2em;
+}
+.fourdolla {
+    font-size:2.8em;
+}
+.fivedolla {
+    font-size:3.4em;
+}
+/*
+    1.6
+    2.2
+    2.8
+    3.4
+    4
+    4.6
+    */
+
 
 .warning {
     font-size:4em
 }
 
-.tier11 {
-    font-size:1.5em
-}
 .special {
     font-size:2em;
     color:coral
